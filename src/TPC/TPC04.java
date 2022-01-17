@@ -18,16 +18,19 @@ public class TPC04 {
 	
 	hap1(arr);
 	}
-	public static void hap(int a, int b, int c) {
-		System.out.println(a + b + c);
+	public static void hap(int a,int b, int c) {
+		int sum=a+b+c;
+		System.out.println(sum);
 	}
 
-	public static void hap1(int[] x) {
+	
+	public static void hap1(int[] arr) {
 //		반복문 활용 - for, while
 		int sum=0;
-		for(int i=0;i<x.length;i++) {
-			sum+=x[i];
-			System.out.println(sum);
+		for(int i=0;i<arr.length;i++) {
+			sum+=arr[i];
+			
 		}
+		System.out.println(sum);
 	}
 }
