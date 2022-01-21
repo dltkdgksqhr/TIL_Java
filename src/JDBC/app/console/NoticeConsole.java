@@ -1,4 +1,4 @@
-package JDBC.app.console;
+package src.JDBC.app.console;
 
 import java.sql.SQLException;
 import java.util.List;
